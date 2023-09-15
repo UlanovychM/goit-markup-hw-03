@@ -66,6 +66,7 @@ img {
 .header__nav {
 	display: flex;
 	align-items: center;
+	padding: 24px 0;
 }
 
 .header__items {
@@ -98,7 +99,6 @@ img {
 .header__contacts {
 	margin-left: 292px;
 	font-style: normal;
-	padding: 24px 0;
 }
 
 .header__contacts_link {
