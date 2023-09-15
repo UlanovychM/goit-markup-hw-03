@@ -77,7 +77,6 @@ img {
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.02em;
-	padding: 24px 0;
 }
 
 .header__logo {
@@ -86,8 +85,8 @@ img {
 
 .header__link {
 	line-height: 150%;
-	letter-spacing: 4%;
 	color: var(--navy);
+	padding: 24px 0;
 }
 
 .header__link:hover,
