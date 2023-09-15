@@ -7,7 +7,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background-color: var(--white);
 	color: var(--slate);
-	max-width: 1440px;
 }
 
 li {
@@ -64,9 +63,6 @@ img {
 	display: flex;
 }
 
-.header__contacts {
-	font-style: normal;
-}
 .header__nav {
 	display: flex;
 	align-items: center;
@@ -101,6 +97,7 @@ img {
 
 .header__contacts {
 	margin-left: 292px;
+	font-style: normal;
 	padding: 24px 0;
 }
 
