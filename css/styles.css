@@ -70,12 +70,12 @@ img {
 .header__nav {
 	display: flex;
 	align-items: center;
-	padding: 24px 0;
 }
 
 .header__items {
 	display: flex;
 	gap: 40px;
+	padding: 24px 0;
 }
 
 .header__item {
@@ -121,6 +121,10 @@ img {
 .header__contacts_link:hover,
 .header__contacts_link:focus {
 	color: var(--ocean);
+}
+
+.order .section {
+	padding: 188px 0;
 }
 
 .order {
