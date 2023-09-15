@@ -78,7 +78,6 @@ img {
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.02em;
-	padding: 24px 0;
 }
 
 .header__logo {
@@ -99,6 +98,7 @@ img {
 .header__contacts {
 	margin-left: 292px;
 	font-style: normal;
+	padding: 24px 0;
 }
 
 .header__contacts_link {
