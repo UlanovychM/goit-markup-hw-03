@@ -75,13 +75,13 @@ img {
 .header__items {
 	display: flex;
 	gap: 40px;
-	padding: 24px 0;
 }
 
 .header__item {
 	font-weight: 500;
 	line-height: 150%;
 	letter-spacing: 0.02em;
+	padding: 24px 0;
 }
 
 .header__logo {
@@ -123,12 +123,9 @@ img {
 	color: var(--ocean);
 }
 
-.order .section {
-	padding: 188px 0;
-}
-
 .order {
 	background-color: var(--navy);
+	padding: 188px 0;
 }
 
 .order__title {
