@@ -40,7 +40,7 @@ img {
 }
 
 .section {
-	padding: 188px 0;
+	padding: 120px 0;
 }
 
 .logo {
@@ -57,12 +57,12 @@ img {
 
 .header {
 	border-bottom: 1px solid #e7e9fc;
-	padding: 0 15px;
+	padding: 24px 0;
 }
 
 .header .container {
 	display: flex;
-	padding: 24px 0;
+	padding: 0 15px;
 }
 
 .header__contacts {
@@ -167,24 +167,18 @@ img {
 	background-color: var(--ocean);
 }
 
-.feature {
-	padding: 120px 0;
-}
+.feature__title .visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
 
-.feature__title {
-	.visually-hidden {
-		position: absolute;
-		width: 1px;
-		height: 1px;
-		margin: -1px;
-		border: 0;
-		padding: 0;
-
-		white-space: nowrap;
-		clip-path: inset(100%);
-		clip: rect(0 0 0 0);
-		overflow: hidden;
-	}
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .feature__items {
@@ -217,7 +211,6 @@ img {
 
 .team {
 	background-color: var(--cloud);
-	padding: 120px 0;
 }
 
 .team__title {
@@ -260,10 +253,6 @@ img {
 	font-weight: 400;
 	line-height: 150%;
 	letter-spacing: 0.02em;
-}
-
-.portfolio {
-	padding: 120px 0;
 }
 
 .portfolio__title {
