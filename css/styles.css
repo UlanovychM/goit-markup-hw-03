@@ -37,7 +37,6 @@ img {
 .container {
 	max-width: 1158px;
 	margin: 0 auto;
-	padding: 0 15px;
 }
 
 .section {
@@ -58,11 +57,11 @@ img {
 
 .header {
 	border-bottom: 1px solid #e7e9fc;
-	padding: 0 15px;
 }
 
 .header .container {
 	display: flex;
+	padding: 0 15px;
 	padding: 24px 0;
 }
 
@@ -101,7 +100,7 @@ img {
 }
 
 .header__contacts {
-	margin-left: 332px;
+	margin-left: 292px;
 }
 
 .header__contacts_link {
@@ -177,9 +176,12 @@ img {
 	gap: 24px;
 }
 
+.feature__item {
+	flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 .feature__subtitle {
 	margin-bottom: 8px;
-	flex-basis: calc((100% - 3 * 24px) / 4);
 
 	font-size: 20px;
 	font-style: normal;
@@ -199,6 +201,7 @@ img {
 
 .team {
 	background-color: var(--cloud);
+	padding: 120px 0;
 }
 
 .team__title {
@@ -241,6 +244,10 @@ img {
 	font-weight: 400;
 	line-height: 150%;
 	letter-spacing: 0.02em;
+}
+
+.portfolio {
+	padding: 120px 0;
 }
 
 .portfolio__title {
