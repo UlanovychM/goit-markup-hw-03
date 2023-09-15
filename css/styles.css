@@ -254,21 +254,17 @@ img {
 .portfolio__items {
 	display: flex;
 	flex-wrap: wrap;
+	column-gap: 24px;
+	row-gap: 48px;
 }
 
 .portfolio__item {
-	width: 360px;
-	height: 420px;
-	margin-left: 24px;
-	margin-top: 48px;
-}
-
-.portfolio__item:first-child,
-.portfolio__item:nth-child(4n) {
-	margin-left: 0;
+	width: calc((100% - 48px) / 3);
 }
 
 .portfolio__item_text {
+	padding: 32px 16px;
+
 	border-block-end: 1px solid;
 	writing-mode: horizontal-tb;
 	border-block-end-color: var(--cornflower);
@@ -278,8 +274,7 @@ img {
 }
 
 .portfolio__subtitle {
-	padding-top: 32px;
-	padding-left: 16px;
+	margin-bottom: 8px;
 
 	font-size: 20px;
 	font-style: normal;
@@ -290,9 +285,6 @@ img {
 }
 
 .portfolio__dscr {
-	padding-bottom: 32px;
-	padding-left: 16px;
-
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
